@@ -18,7 +18,7 @@ public class ServicesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_services);
         usuario = getIntent().getStringExtra("usuario");
         txUsuario=findViewById(R.id.textViewUsuario);
-        txUsuario.setText("Bienvenido " + usuario);
+        txUsuario.setText("Bienvenido: " + usuario);
 
     }
     public void goToMaps(View v){
