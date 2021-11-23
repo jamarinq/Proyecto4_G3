@@ -17,6 +17,9 @@
     <string name="servicio3">Corte a Maquina</string>
     <string name="barbero1">Barbero uno</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="labelNombreBarberia">Nombre Barberia</string>
+    <string name="labelTelefonoBarberia">Telefono</string>
+    <string name="labelNombreBarbero">Nombre Barbero</string>
 
     <string-array name="schedule">
         <item>9:00 - 9:30</item>

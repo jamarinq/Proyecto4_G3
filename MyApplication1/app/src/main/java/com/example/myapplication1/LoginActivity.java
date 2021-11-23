@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void registar(View view){
+    public void registrar(View view){
         etEmail=findViewById(R.id.emailEditText);
         etPassword=findViewById(R.id.passwordEditText);
         Toast.makeText(getApplicationContext(),
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
                         Log.d(TAG, "createUserWithEmail:success");
                         FirebaseUser user = mAuth.getCurrentUser();
                         Toast.makeText(LoginActivity.this, "Usuario Creado", Toast.LENGTH_SHORT).show();
-                        Intent intentLogin = new Intent (getApplicationContext(), ServicesActivity.class);
+                        Intent intentLogin = new Intent (getApplicationContext(), FormularioBarberoActivity.class);
                         startActivity(intentLogin);
                     } else {
                         // If sign in fails, display a message to the user.
