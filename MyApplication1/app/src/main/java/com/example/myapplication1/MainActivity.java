@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intentLogin = new Intent (this, FormularioBarberoActivity.class);
         startActivity(intentLogin);
     }
+
+    public void goToPrueba2(View view){
+        Intent intentLogin = new Intent (this, AgendaActivity.class);
+        startActivity(intentLogin);
+    }
 }
